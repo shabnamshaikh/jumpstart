@@ -1,0 +1,68 @@
+body {
+font-size: 14px;
+font-family: "Open Sans";
+}
+
+.navbar-default .navbar-nav>li>a {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-default .navbar-nav>li.nav-active>a {
+  color: #399bd1;
+}
+
+.caraousel-item {
+  height: 60rem;
+}
+
+.jumbotron-duffel {
+  background-image: url("../images/jumbotron-duffel.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.jumbotron-bike {
+  background-image: url("../images/jumbotron-bike.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.jumbotron-flowers {
+  background-image: url("../images/jumbotron-flowers.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.jumbotron-beer {
+  background-image: url("../images/jumbotron-beer.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.banner-text {
+  text-align: center;
+  padding-top: 10rem;
+  color: white;
+}
+
+.banner-text h1 {
+  font-family: "Monoton", "sans-serif";
+  font-size: 7.1rem;
+  text-shadow: -1px -1px 0 #000,
+               -1px -1px 0 #000,
+               -1px -1px 0 #000,
+               -1px -1px 0 #000;
+}
+
+.image-container img {
+  width: 100%;
+}
+
+.project-img img {
+  width: 100%;
+}
