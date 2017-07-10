@@ -149,3 +149,9 @@ footer .footer-content button.btn-primary:active,
  .caraousel .caraousel-item button.btn-primary:active {
   box-shadow: 0 0 0 rgba(0,0,0,0.5);
 }
+
+@media only screen and (max-width: 768px) {
+  .logo {
+    display: none;
+  }
+}
