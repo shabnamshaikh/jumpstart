@@ -14,34 +14,25 @@ font-family: "Open Sans";
 
 .caraousel-item {
   height: 60rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .jumbotron-duffel {
   background-image: url("../images/jumbotron-duffel.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .jumbotron-bike {
   background-image: url("../images/jumbotron-bike.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .jumbotron-flowers {
   background-image: url("../images/jumbotron-flowers.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .jumbotron-beer {
   background-image: url("../images/jumbotron-beer.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 
@@ -129,7 +120,7 @@ footer {
 .footer-content p {
   width: 42rem;
   margin: auto;
-  padding: 1.4rem 0;
+  padding: 2.4rem .2rem;
 }
 
  footer .footer-content button.btn-primary,
@@ -153,5 +144,24 @@ footer .footer-content button.btn-primary:active,
 @media only screen and (max-width: 768px) {
   .logo {
     display: none;
+  }
+
+  .banner-text h1 {
+    font-size: 5rem;
+  }
+
+  .banner-text p {
+    width: 100%;
+  }
+
+  .footer-content p {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+
+  .banner-text h1 {
+    font-size: 4rem;
   }
 }
